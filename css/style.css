@@ -1,0 +1,169 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+/*global css here*/
+
+*{
+	margin: 0;
+	padding: 0; 
+}
+body,h1,h2,h3,h4,h5,h6,input,p,span,button{
+	font-family: 'Playfair Display', serif;
+}
+a,a:hover {
+	text-decoration: none;
+}
+/*header part css here*/
+.header{
+	width: 100%;
+}
+.navber{
+	margin: 20px 0;
+}
+.nav-item{
+	margin-left: 50px;
+}
+.nav-link{
+	color: #b4ad9e !important;
+	transition: all 0.5s ease-in-out;
+}
+.nav-link:hover{
+	text-transform: uppercase;
+	color: #000 !important;
+	transition: all 0.5s ease-in-out;
+}
+/*single blog section css*/
+.single-blog{
+	width: 100%;
+}
+.blog-desc{
+	margin: 70PX;
+
+}
+.blog-desc span{
+	color: #b4ad9e;
+	text-transform: uppercase;
+
+
+}
+.blog-desc h1{
+
+     margin: 18px 0;
+}
+.blog-desc p{
+	margin-bottom: 2rem;
+
+}
+/*blog-gallery section css start*/ 
+.blog-gallery{
+	width: 100%;
+	padding : 70PX;
+}
+.post{
+     
+}
+
+.post img{
+	margin-bottom: 2rem;
+
+}
+.post .post-desc h2{
+	margin: 18px 0;
+
+
+}
+.post .post-desc span{
+	color: #b4ad9e;
+	text-transform: uppercase;
+
+
+}
+
+.post .post-desc a{
+	color: #b4ad9e;
+	text-transform: uppercase;
+
+}
+
+.blog-gallery .col-md-6{
+	margin-bottom: 64px;
+}
+/*subscribe section start here*/
+.subscribe{
+	width: 100%;
+	background: #f0f0f0;
+	padding: 64px 0px;
+	text-align: center;
+}
+.subscribe h1{
+	font-weight: 400px !important;
+	margin-bottom: 32px;
+}
+form input{
+	padding: 20px 0;
+	width: 40%;
+	border:none;
+	background: transparent;
+	border-bottom: 1px solid black;
+}
+form input:focus{
+	outline: none;
+}
+form input::placeholder{
+	 
+
+}
+form{
+	position: relative;
+
+}
+form i{
+	position: absolute;
+	top: 20px;
+	right: 31%;
+
+}
+/*subscribe section end here*/
+/*load more btn css*/
+
+.load-more {
+	margin: 80px 0 20px 0;
+	text-align: center;
+
+
+}
+.load-more button{
+	padding: 20px 50px;
+	border:1px solid black;
+	background: transparent;
+	font-size: 20px;
+	color: #b4ad9e;
+}
+/*footer section css strt here*/
+.footer{
+	width: 100%;
+	background: #f0f0f0;
+	padding: 40px 0 ;
+}
+.footer ul li{
+	list-style: none;
+	display: inline-block;
+}
+.footer ul li a{
+	color: black;
+}
+.left{
+	text-align: left;
+}
+.right{
+	text-align: right;
+}
+.left ul li{
+	margin-right: 20px;
+
+}
+.right ul li{
+	margin-left: 24px;
+}
